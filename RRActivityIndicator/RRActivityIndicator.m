@@ -7,7 +7,7 @@
 //
 
 #import "RRActivityIndicator.h"
-#import "UIView+AutoLayout.h"
+#import "PureLayout.h"
 
 static NSString *const SPIN_ANIMATION = @"Spin";
 

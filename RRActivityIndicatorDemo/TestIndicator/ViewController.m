@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "RRActivityIndicator.h"
-#import "UIView+AutoLayout.h"
+#import "PureLayout.h"
 
 @interface ViewController ()
 {
