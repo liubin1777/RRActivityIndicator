@@ -16,7 +16,7 @@
 		5A81D00E1B439D3100E82DFB /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A81D00D1B439D3100E82DFB /* UIView+AutoLayout.m */; };
 		5A81D0111B439F8A00E82DFB /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A81D00F1B439F8A00E82DFB /* circle@2x.png */; };
 		5A81D0121B439F8A00E82DFB /* circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A81D0101B439F8A00E82DFB /* circle@3x.png */; };
-		5A81D01A1B43A36B00E82DFB /* RRActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A81D0191B43A36B00E82DFB /* RRActivityIndicator.m */; };
+		5A81D01E1B43BFA300E82DFB /* RRActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A81D01D1B43BFA300E82DFB /* RRActivityIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 		5A81D00D1B439D3100E82DFB /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 		5A81D00F1B439F8A00E82DFB /* circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@2x.png"; sourceTree = "<group>"; };
 		5A81D0101B439F8A00E82DFB /* circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@3x.png"; sourceTree = "<group>"; };
-		5A81D0181B43A36B00E82DFB /* RRActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRActivityIndicator.h; sourceTree = "<group>"; };
-		5A81D0191B43A36B00E82DFB /* RRActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRActivityIndicator.m; sourceTree = "<group>"; };
+		5A81D01C1B43BFA300E82DFB /* RRActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRActivityIndicator.h; sourceTree = "<group>"; };
+		5A81D01D1B43BFA300E82DFB /* RRActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRActivityIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		5A81CFE01B439A1800E82DFB /* TestIndicator */ = {
 			isa = PBXGroup;
 			children = (
-				5A81D0171B43A36B00E82DFB /* RRActivityIndicator */,
+				5A81D01B1B43BFA300E82DFB /* RRActivityIndicator */,
 				5A81D00A1B439D3100E82DFB /* UIView+AutoLayout */,
 				5A81CFE51B439A1800E82DFB /* AppDelegate.h */,
 				5A81CFE61B439A1800E82DFB /* AppDelegate.m */,
@@ -131,14 +131,14 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		5A81D0171B43A36B00E82DFB /* RRActivityIndicator */ = {
+		5A81D01B1B43BFA300E82DFB /* RRActivityIndicator */ = {
 			isa = PBXGroup;
 			children = (
-				5A81D0181B43A36B00E82DFB /* RRActivityIndicator.h */,
-				5A81D0191B43A36B00E82DFB /* RRActivityIndicator.m */,
+				5A81D01C1B43BFA300E82DFB /* RRActivityIndicator.h */,
+				5A81D01D1B43BFA300E82DFB /* RRActivityIndicator.m */,
 			);
 			path = RRActivityIndicator;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -214,7 +214,7 @@
 			files = (
 				5A81D00E1B439D3100E82DFB /* UIView+AutoLayout.m in Sources */,
 				5A81CFEA1B439A1800E82DFB /* ViewController.m in Sources */,
-				5A81D01A1B43A36B00E82DFB /* RRActivityIndicator.m in Sources */,
+				5A81D01E1B43BFA300E82DFB /* RRActivityIndicator.m in Sources */,
 				5A81CFE71B439A1800E82DFB /* AppDelegate.m in Sources */,
 				5A81CFE41B439A1800E82DFB /* main.m in Sources */,
 			);
